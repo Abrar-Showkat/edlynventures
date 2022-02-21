@@ -1,0 +1,227 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link rel="stylesheet" href="{% static 'store/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'store/css/lightslider.css' %}">
+    <script type="text/javascript" src="{% static 'store/javascript/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'store/javascript/lightslider.js' %}"></script>
+    
+
+    <title>Edlynventures</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <a href="#"><img class="logo" src="{% static 'store/EDLYN LOGO (1).png'%}" alt="logo"></a>   
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">KITCHEN APPLIANCES</a></li>
+                <li><a href="#">HEATERS</a></li>
+                <li><a href="#">WATER PURIFIERS</a></li>
+                <li><a href="#">SUPPORT</a></li>
+            </ul>
+        </nav>
+        <div>
+        <!--<a href="#"><button class="login">&#128100</button></a>-->
+        <a href="#"><button class="login"><i class="fa fa-user-circle" aria-hidden="true"></i></button></a>
+
+        <a href="#"><img src="{% static 'store/shopping-cart-svg-png-icon-download-28.png'%}" class="cart" ></a>
+    </div>
+    </header>
+    
+    <!-- Images for Advertisement-->
+    <div class="wrap">                            
+        <div id="arrow-left" class="arrows"></div>
+        <div id="slider">
+            <div class="slide slide1">
+                <div class="slide-content">
+                    <img src="{% static 'store/0001.jpg' %}">
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <img src="{% static 'store/0002.jpg' %}">
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <img src="{% static 'store/0003.jpg' %}">
+                </div>
+            </div>
+        </div>
+        <div id="arrow-right" class="arrows"></div>
+
+    </div>
+
+       <!--Products Showing-->
+       <div class="container">
+        <ul id="autoWidth" class="cs-hidden">
+            <li class="item-a">
+                <a href="#"> <div class="slider">
+                    <div class="image">
+                        <img src="{% static 'store/Kitchen-Appliances-Category-Page--Mobile-Banner.png' %}"><br>
+                        
+                     </div>
+                     <div class="product-name">
+                         <a href="#"> Kitchen Appliances </a>
+                    
+                     </div>
+                    
+                </div></a>
+            </li>
+            <li class="item-b">
+                <a href="#"> <div class="slider">
+                    <div class="image">
+                        <img src="{% static 'store/ventless-natural-gas-heaters.png' %}"><br>
+                        
+                     </div>
+                     <div class="product-name">
+                         <a href="#"> Heaters </a>
+                    
+                     </div>
+                    
+                </div></a>
+            </li>
+            <li class="item-c">
+                <a href="#"> <div class="slider">
+                    <div class="image">
+                        <img src="{% static 'store/images.jpg' %}"><br>
+                        
+                     </div>
+                     <div class="product-name">
+                         <a href="#"> Water Purifiers </a>
+                    
+                     </div>
+                    
+                </div></a>
+            </li>
+            <li class="item-d">
+                <a href="#"> <div class="slider">
+                    <div class="image">
+                        <img src="{% static 'store/microwave.jpg' %}"><br>
+                        
+                     </div>
+                     <div class="product-name">
+                         <a href="#"> Microwave Ovens </a>
+                    
+                     </div>
+                    
+                </div></a>
+            </li>
+            <li class="item-e">
+                <a href="#"> <div class="slider">
+                    <div class="image">
+                        <img src="{% static 'store/50149-1-dishwasher-png-file-hd.png' %}"><br>
+                        
+                     </div>
+                     <div class="product-name">
+                         <a href="#"> Dish Washer </a>
+                    
+                     </div>
+                    
+                </div></a>
+            </li>
+          </ul>
+         
+
+        </div> <br>
+
+        <h1>Browse with Ease, Shop with Confidence</h1><br>
+        <div class="detail">
+           
+            <div class="shipping">
+                <img src="{% static 'store/01-Free-Shoping-v1.webp' %}">
+                <h4>Free Shipping</h4>
+                <p>Avail Free & Safe shipping in serviceable pin codes, whenever you shop from https://edlynventures.com We take pride in delivering most of our orders on priority</p>
+            </div>
+            <div class="shipping">
+                <img src="{% static 'store/02-Secure-Payments.webp' %}">
+                <h4>Secure Payments</h4>
+                <p>Your Data security & privacy is our priority. Pay securely through 128 bit encrypted payment gateway. We support credit cards, net banking and debits cards.</p>
+            </div>
+            <div class="shipping">
+                <img src="{% static 'store/03-Exclusive-Offers.webp' %}">
+                <h4>Exclusive Offers</h4>
+                <p>Now enjoy the benefits of Edlyn exclusive offers. Subscribe Edlynventures.com to remain updated on latest offers</p>
+            </div>
+            <div class="shipping">
+                <img src="{% static 'store/04-Hassle-Free-Installation.webp' %}">
+                <h4>Hasle Free Installation</h4>
+                <p>Once you place order on LG.com your installation request will be generated post-delivery and our expert engineers will guide you through user manual Previous </p>
+            </div>
+            
+        </div>
+        <!--Second advertisement Conatainer---->
+        <div class="ad-container">
+            <ul class="ad-images">
+               <li class="ad-slide"><img src="{% static 'store/wm-banner-twelve-percentage-D.webp' %}"></li>
+                <li class="ad-slide"><img src="{% static 'store/mwo-banner-cashback-march-D.webp' %}"></li>
+                <li class="ad-slide"><img src="{% static 'store/republic_day_banner_1600x400.webp' %}"></li>
+                
+             </ul>
+            </div><br>
+            <div class="support-container-heading">
+                <h2>Edlyn Product Service and Support</h2><br>
+                <p>Get your question answered about product setup, use and care, repair and maintenance issues. We can help</p>
+            </div>
+            
+            <div class="support-container">
+                <div class="email-div">
+                    <img src="{% static 'store/in-common-iconlink-3.webp'%}" width="63px" height="63px"><br>
+                    <h2>Send an Email</h2><br>
+                    <p>Send a messag to <a href="mailto:info@edlynventures.com" style="text-decoration: none; color: black;">info@edlynventures.com</a></p>
+
+                </div>
+                <div class="email-div">
+
+                    <img src="{% static 'store/in-common-iconlink-3.webp'%}" width="63px" height="63px"><br>
+                    <h2>Phone</h2><br>
+                    <p>Call Edlyn Support<br>
+                        1800 315 9999<br>
+                        OR<br>
+                        1800 180 9999<br>
+                        24 hrs (7 days a week)<br>
+                        Except national holidays</p>
+                    
+
+                </div>
+                <div class="email-div">
+
+                     <img src="{% static 'store/in-common-iconlink-3.webp'%}" width="63px" height="63px"><br>
+                    <h2>Address</h2><br>
+                    <p>Edlyn Home Appliances India Pvt. Ltd,<br>
+                        AG Plaza,<br>
+                        Baghi Mahtab,<br>
+                        Srinagar,<br>
+                        J&K - 190019</p>
+
+                </div>
+                 
+
+            </div>
+            <div class="footer">
+                <div class="copyright-container">
+                <p class="copyright">Copyright @ 2022, Edlyne Home Appliances</p>
+            </div>
+                <div class="contact-container">
+                    <p class="contact"> Contact us on <a href="https://edlyne.com/" target="blank" style="text-decoration: none; color: white">Edlynventures</a> </p>
+  
+                </div>
+                <div class="help-support-container">
+                    <p class="help-and-support"> Help and support</p>
+            </div>
+        
+        <script type="application/javascript" src="{% static 'store/javascript/script.js' %}"></script>
+        
+</body>
+ 
+   
+</html>

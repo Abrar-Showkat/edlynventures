@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+li, a, button{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: white smoke;
+}
+
+.logo{
+    height:  130px;
+    width: auto;
+}
+
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    letter-spacing: 0.15em;
+    position: relative;
+    display: inline-block;
+
+}
+
+.nav_links li a:hover{
+    text-decoration: underline;
+    color: red ;
+    
+}
+button{
+    background-color: white;
+    border: none;
+    font-size: 38px;
+    padding: 10px;
+    cursor: pointer;
+  
+}
+.button:hover {
+    background-color: black;
+}
+.cart{
+    height: 35px;
+    width: auto;
+    
+}
+#slider, .wrap, .slide-content{  
+    width: 97%;
+    height: 600px;
+    margin: auto;
+    margin-top: 0px;
+    
+}
+.slide-content img{
+    width: auto;
+    height: 100%;
+}
+
+.wrap{position: relative}
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arrows{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    color: lightgray;
+    
+}
+
+#arrow-left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-left: 10px;
+}
+
+#arrow-right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 0;
+    margin-right: 48px;
+}
+/*#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent black transparent transparent;
+    left: 0;
+    margin-left: 10px; 
+    
+    
+}*/
+/*#arrow-right{
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent black;
+    right: 0;
+    margin-right: 10px;
+}*/
+
+.container{
+    width: 4500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    
+    
+}
+
+.slider{
+    width: 250px;
+    height: 350px;
+    border: 0.5px solid lightgray;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.image{
+    width: auto;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+}
+.product-name{
+    display: flex;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 30px;
+    justify-content: center;
+    width: 15%;
+}
+.product-name a{
+    text-decoration: none;
+    color: black;
+}
+.slider:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.slider:hover .product-name a{
+    color: black;
+}
+
+.arrow{
+    position: absolute;
+    top: 910px;
+    right: 55px;
+    font-size: 60px;
+    color: black;
+    cursor: pointer;
+
+}
+.detail{
+    width: 95%;
+    height: 300px;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    font-size: 32px;
+}
+
+.shipping{
+    flex-direction: column;
+    width: 300px;
+    height: 270px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.shipping img{
+    margin-top: 10px;
+}
+.shipping h4{
+    margin-top: 20px;
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    font-size: 24px;
+}
+.shipping p{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    font-size: 16px;
+}
+.box{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 500px;
+}
+.slide-img{
+    height: 450px;
+}
+
+.ad-container{
+    width: 5000px;
+    height: 300px;
+    
+}
+
+.ad-container .ad-images{
+    display: block;
+    width: 3965px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.ad-container .ad-slide{
+    list-style-type: none;
+    width: 1300px;
+    height: 100%;
+    margin-left: 27px;
+    background-color: red;
+  
+}
+
+.ad-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.support-container-heading{
+    width: 650px;
+    height: 100px;
+    margin: auto;
+    
+}
+.support-container-heading h2{
+    font-family:  "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    font-size: 29px;
+    text-align: center;
+}
+.support-container-heading p{
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.support-container{
+    width: 97%;
+    height: 320px;
+    margin: auto;
+    display: flex;
+
+}
+
+.email-div{
+    
+    width: 350px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-div h2{
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+
+}
+.email-div a{
+    font-size: 15px;
+}
+
+.email-div p{
+    font-family: "Segoe UI", "Microsoft Sans Serif", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contact-container{
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.help-support-container{
+    margin-right: 80px;
+    margin-top: 30px;
+    width: 150px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
